@@ -80,20 +80,7 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
 
 .b-parallax {
     background-attachment: fixed;
@@ -164,23 +151,23 @@ a:hover {
 }
 
 .d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel icon {
-    border-color: rgba(0, 0, 0, .7);
+    border-color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .a-btn:hover {
@@ -189,18 +176,18 @@ a:hover {
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
+    color: rgb(0, 0, 0);
 }
 
 .l-bloc .icon-round,
@@ -208,12 +195,12 @@ a:hover {
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
 .l-bloc .icon-semi-rounded-b {
-    border-color: rgba(0, 0, 0, .7);
+    border-color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .divider-h span,
 .l-bloc .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .a-btn,
@@ -466,12 +453,7 @@ button {
     border-radius: 40px;
 }
 
-.btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
-}
+
 
 .icon-md {
     font-size: 30px!important;
@@ -542,7 +524,7 @@ a[data-lightbox]:hover::before {
     height: 50px;
     margin-left: -25px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, .6);
+    background: rgb(0, 0, 0);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
@@ -577,7 +559,7 @@ a[data-lightbox]:hover img {
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
-    background: rgba(0, 0, 0, .5);
+    background: rgb(0, 0, 0);
     position: absolute;
     left: 15px;
     right: 15px;
@@ -591,7 +573,7 @@ a[data-lightbox]:hover img {
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: rgb(0, 0, 0);
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
@@ -637,20 +619,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
-    font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
-}
+
 
 .container {
     max-width: 1000px;
@@ -772,21 +741,19 @@ h4 {
     background-color: #364577;
 }
 
-.bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
+
 
 .tc-white {
-    color: #364577!important;
+    color: #0095f8!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #f54e00;
+    
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background:  #f54e00;
     color: #FFFFFF!important;
 }
 
@@ -799,32 +766,32 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color:  #f54e00;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color:  #f54e00;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #1242df;
+    border-color:  #1242df;
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg_8_11zon.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg_9_11zon.webp");
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta made sign_5_11zon.webp");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta made sign orange_4_11zon.webp");
 }
 
 @media (max-width: 1024px) {
