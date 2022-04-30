@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
+    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -823,7 +824,7 @@ h1,h4 {
     
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) 
     .b-parallax {
         background-attachment: scroll;
     }
