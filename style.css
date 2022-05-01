@@ -822,13 +822,13 @@ h1,h4 {
     
 }
 
-@media only screen and (min-device-width: 768px) 
+@media only screen and (min-device-width: 768px) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)  {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1013,3 +1013,4 @@ h1,h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
