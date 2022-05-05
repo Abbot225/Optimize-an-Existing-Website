@@ -507,6 +507,9 @@ button {
     transition: all .3s ease-in-out;
 }
 
+.design{
+    font-size: 40px
+}
 .scrollToTop span {
     margin-top: 6px;
 }
