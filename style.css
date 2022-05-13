@@ -6,6 +6,10 @@ body {
    
 }
 
+p{
+    color:#000000
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -196,7 +200,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgb(0, 0, 0);
+    color: #23e9ff;
 }
 
 .d-bloc .panel button:hover,
@@ -227,7 +231,7 @@ a:hover {
 .l-bloc a .icon-xl,
 .l-bloc h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: #23e9ff;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -492,8 +496,8 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+    border-color:#380097 ;
+    box-shadow:#000000;
 }
 
 .scrollToTop {
@@ -508,6 +512,7 @@ button {
 }
 
 .design{
+    color: #000;
     font-size: 40px
 }
 .scrollToTop span {
@@ -708,7 +713,7 @@ h1,h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #23e9ff!important;
 }
 
 .portfolio-thumb {
@@ -718,7 +723,10 @@ h1,h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    
 }
+
+
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -740,12 +748,12 @@ h1,h4 {
     text-transform: uppercase;
 }
 
-.bgc-white {
-    background-color: #FFFFFF;
+.bgc-red {
+    background-color: #fa0d0d;
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: rgb(48,60,100)
 }
 
 
@@ -755,9 +763,10 @@ h1,h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #8f4600;
+    background: #b50200;
     
 }
+
 
 .btn-atomic-tangerine:hover {
     background:  #8f4600;
@@ -773,11 +782,11 @@ h1,h4 {
 }
 
 .ltc-atomic-tangerine {
-    color:  #8f4600;
+    color: #23e9ff ;
 }
 
 .ltc-atomic-tangerine:hover {
-    color:  #8f4600;
+    color:  #110f0d;
 }
 
 .icon-dark-slate-blue {
@@ -786,7 +795,7 @@ h1,h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg_8_11zon.webp");
+    background-color: #204a5f;
 }
 
 .bg-lines-h2-bg {
